@@ -1,0 +1,672 @@
+// DO NOT EDIT. This is code generated via package:intl/generate_localized.dart
+// This is a library that provides messages for a ar locale. All the
+// messages from the main program should be duplicated here with the same
+// function name.
+
+// Ignore issues from commonly used lints in this file.
+// ignore_for_file:unnecessary_brace_in_string_interps, unnecessary_new
+// ignore_for_file:prefer_single_quotes,comment_references, directives_ordering
+// ignore_for_file:annotate_overrides,prefer_generic_function_type_aliases
+// ignore_for_file:unused_import, file_names, avoid_escaping_inner_quotes
+// ignore_for_file:unnecessary_string_interpolations, unnecessary_string_escapes
+
+import 'package:intl/intl.dart';
+import 'package:intl/message_lookup_by_library.dart';
+
+final messages = new MessageLookup();
+
+typedef String MessageIfAbsent(String messageStr, List<dynamic> args);
+
+class MessageLookup extends MessageLookupByLibrary {
+  String get localeName => 'ar';
+
+  static String m0(versionNumber) => "الإصدار ${versionNumber}";
+
+  static String m1(pctCarbs, pctFats, pctProteins) =>
+      "${pctCarbs}% كربوهيدرات، ${pctFats}% دهون، ${pctProteins}% بروتين"; // "بروتينات" إلى "بروتين"
+
+  static String m2(riskValue) => "خطر الأمراض المصاحبة: ${riskValue}";
+
+  static String m3(age) => "${age} سنة";
+
+  final messages = _notInlinedMessages(_notInlinedMessages);
+  static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "activityExample": MessageLookupByLibrary.simpleMessage(
+            "مثال: الجري، ركوب الدراجات، اليوجا..."), // اليوغا إلى اليوجا
+        "activityLabel": MessageLookupByLibrary.simpleMessage("النشاط"),
+        "addItemLabel": MessageLookupByLibrary.simpleMessage("إضافة عنصر جديد:"), // أضف عنصرًا جديدًا:
+        "addLabel": MessageLookupByLibrary.simpleMessage("إضافة"), // أضف
+        "additionalInfoLabelCompendium2011": MessageLookupByLibrary.simpleMessage(
+            "معلومات مُقدّمة\n من '2011 Compendium\n of Physical Activities'"), // تعديل الصياغة
+        "additionalInfoLabelCustom":
+            MessageLookupByLibrary.simpleMessage("وجبة مخصصة"),
+        "additionalInfoLabelFDC": MessageLookupByLibrary.simpleMessage(
+            "مزيد من المعلومات على\nFoodData Central"),
+        "additionalInfoLabelOFF": MessageLookupByLibrary.simpleMessage(
+            "مزيد من المعلومات على\nOpenFoodFacts"),
+        "additionalInfoLabelUnknown":
+            MessageLookupByLibrary.simpleMessage("وجبة غير معروفة"),
+        "ageLabel": MessageLookupByLibrary.simpleMessage("العمر"),
+        "allItemsLabel": MessageLookupByLibrary.simpleMessage("جميع العناصر"), // الكل إلى جميع العناصر
+        "alphaVersionName": MessageLookupByLibrary.simpleMessage("[ألفا]"),
+        "appDescription": MessageLookupByLibrary.simpleMessage(
+            "OpenNutriTracker هو متتبع مجاني ومفتوح المصدر للسعرات الحرارية والمغذيات، ويحترم خصوصيتك."), // تعديل الصياغة
+        "appLicenseLabel":
+            MessageLookupByLibrary.simpleMessage("ترخيص GPL-3.0"),
+        "appTitle": MessageLookupByLibrary.simpleMessage("OpenNutriTracker"),
+        "appVersionName": m0,
+        "baseQuantityLabel":
+            MessageLookupByLibrary.simpleMessage("الكمية الأساسية (جم/مل)"),
+        "betaVersionName": MessageLookupByLibrary.simpleMessage("[بيتا]"),
+        "bmiInfo": MessageLookupByLibrary.simpleMessage(
+            "مؤشر كتلة الجسم (BMI) هو مؤشر لتصنيف الوزن الزائد والسمنة لدى البالغين. يُعرّف بأنه الوزن بالكيلوغرام مقسوماً على مربع الطول بالأمتار (كجم/م²).\n\nمؤشر كتلة الجسم لا يُميّز بين كتلة الدهون وكتلة العضلات وقد يكون مُضللاً لبعض الأفراد."), // تعديل الصياغة
+        "bmiLabel": MessageLookupByLibrary.simpleMessage("مؤشر كتلة الجسم (BMI)"),
+        "breakfastExample": MessageLookupByLibrary.simpleMessage(
+            "مثال: حبوب، حليب، قهوة..."), // ...
+        "breakfastLabel": MessageLookupByLibrary.simpleMessage("وجبة الإفطار"), // الإفطار
+        "burnedLabel": MessageLookupByLibrary.simpleMessage("سعرات مُستهلَكة"), // مستهلكة
+        "buttonNextLabel": MessageLookupByLibrary.simpleMessage("التالي"),
+        "buttonResetLabel": MessageLookupByLibrary.simpleMessage("إعادة تعيين"),
+        "buttonSaveLabel": MessageLookupByLibrary.simpleMessage("حفظ"),
+        "buttonStartLabel": MessageLookupByLibrary.simpleMessage("ابدأ"),
+        "buttonYesLabel": MessageLookupByLibrary.simpleMessage("نعم"),
+        "calculationsMacronutrientsDistributionLabel":
+            MessageLookupByLibrary.simpleMessage("توزيع المغذيات الكبرى"),
+        "calculationsMacrosDistribution": m1,
+        "calculationsRecommendedLabel":
+            MessageLookupByLibrary.simpleMessage("(موصى به)"),
+        "calculationsTDEEIOM2006Label": MessageLookupByLibrary.simpleMessage(
+            "معادلة معهد الطب"),
+        "calculationsTDEELabel": MessageLookupByLibrary.simpleMessage(
+            "إجمالي الإنفاق اليومي للطاقة (TDEE)"), // معادلة TDEE
+        "carbohydrateLabel":
+            MessageLookupByLibrary.simpleMessage("كربوهيدرات"),
+        "carbsLabel": MessageLookupByLibrary.simpleMessage("كربوهيدرات"),
+        "chooseWeightGoalLabel":
+            MessageLookupByLibrary.simpleMessage("اختر هدف الوزن"),
+        "cmLabel": MessageLookupByLibrary.simpleMessage("سم"),
+        "copyDialogTitle": MessageLookupByLibrary.simpleMessage(
+            "إلى أي وجبة تريد النسخ؟"), // نوع وجبة
+        "copyOrDeleteTimeDialogContent": MessageLookupByLibrary.simpleMessage(
+            "باستخدام \"نسخ إلى اليوم\" يمكنك نسخ الوجبة إلى اليوم. باستخدام \"حذف\" يمكنك حذف الوجبة."),
+        "copyOrDeleteTimeDialogTitle":
+            MessageLookupByLibrary.simpleMessage("ماذا تريد أن تفعل؟"),
+        "createCustomDialogContent": MessageLookupByLibrary.simpleMessage(
+            "هل تريد إنشاء وجبة مخصصة؟"),
+        "createCustomDialogTitle":
+            MessageLookupByLibrary.simpleMessage("إنشاء وجبة مخصصة؟"),
+        "dailyKcalAdjustmentLabel":
+            MessageLookupByLibrary.simpleMessage("تعديل السعرات الحرارية اليومية:"),
+        "dataCollectionLabel": MessageLookupByLibrary.simpleMessage(
+            "ادعم التطوير بتوفير بيانات استخدام مجهولة"), // تعديل الصياغة
+        "deleteAllLabel": MessageLookupByLibrary.simpleMessage("حذف الكل"),
+        "deleteTimeDialogContent": MessageLookupByLibrary.simpleMessage(
+            "هل تريد حذف هذا العنصر؟"), // العنصر المحدد
+        "deleteTimeDialogPluralContent": MessageLookupByLibrary.simpleMessage(
+            "هل تريد حذف جميع عناصر هذه الوجبة؟"),
+        "deleteTimeDialogPluralTitle":
+            MessageLookupByLibrary.simpleMessage("حذف العناصر؟"),
+        "deleteTimeDialogTitle":
+            MessageLookupByLibrary.simpleMessage("حذف العنصر؟"),
+        "dialogCancelLabel": MessageLookupByLibrary.simpleMessage("إلغاء"),
+        "dialogCopyLabel":
+            MessageLookupByLibrary.simpleMessage("نسخ إلى اليوم"),
+        "dialogDeleteLabel": MessageLookupByLibrary.simpleMessage("حذف"),
+        "dialogOKLabel": MessageLookupByLibrary.simpleMessage("حسناً"), // موافق
+        "diaryLabel": MessageLookupByLibrary.simpleMessage("اليوميات"),
+        "dinnerExample": MessageLookupByLibrary.simpleMessage(
+            "مثال: حساء، دجاج، عصير..."), // نبيذ
+        "dinnerLabel": MessageLookupByLibrary.simpleMessage("وجبة العشاء"), // العشاء
+        "disclaimerText": MessageLookupByLibrary.simpleMessage(
+            "OpenNutriTracker ليس تطبيقاً طبياً. جميع البيانات المقدمة غير معتمدة ويجب استخدامها بحذر. يرجى الحفاظ على نمط حياة صحي واستشارة أخصائي إذا كان لديك أي مشاكل. لا ينصح بالاستخدام أثناء المرض أو الحمل أو الرضاعة."), // أخصائي بدلاً من مختص
+        "editItemDialogTitle":
+            MessageLookupByLibrary.simpleMessage("تعديل العنصر"),
+        "editMealLabel": MessageLookupByLibrary.simpleMessage("تعديل الوجبة"),
+        "energyLabel": MessageLookupByLibrary.simpleMessage("طاقة"),
+        "errorFetchingProductData": MessageLookupByLibrary.simpleMessage(
+            "حدث خطأ أثناء جلب بيانات المنتج"),
+        "errorLoadingActivities": MessageLookupByLibrary.simpleMessage(
+            "حدث خطأ أثناء تحميل الأنشطة"),
+        "errorMealSave": MessageLookupByLibrary.simpleMessage(
+            "حدث خطأ أثناء حفظ الوجبة. هل أدخلت معلومات الوجبة الصحيحة؟"),
+        "errorOpeningBrowser": MessageLookupByLibrary.simpleMessage(
+            "حدث خطأ أثناء فتح المتصفح"), // تطبيق المتصفح
+        "errorOpeningEmail": MessageLookupByLibrary.simpleMessage(
+            "حدث خطأ أثناء فتح تطبيق البريد الإلكتروني"),
+        "errorProductNotFound":
+            MessageLookupByLibrary.simpleMessage("لم يتم العثور على المنتج"), // المنتج غير موجود
+        "exportAction": MessageLookupByLibrary.simpleMessage("تصدير"),
+        "exportImportDescription": MessageLookupByLibrary.simpleMessage(
+            "يمكنك تصدير بيانات التطبيق إلى ملف مضغوط واستيرادها لاحقاً. هذا مفيد لعمل نسخة احتياطية لبياناتك أو نقلها إلى جهاز آخر.\n\nالتطبيق لا يستخدم أي خدمة سحابية لتخزين بياناتك."), // تعديل الصياغة
+        "exportImportErrorLabel":
+            MessageLookupByLibrary.simpleMessage("خطأ في التصدير/الاستيراد"), // /
+        "exportImportLabel":
+            MessageLookupByLibrary.simpleMessage("تصدير/استيراد البيانات"), // /
+        "exportImportSuccessLabel":
+            MessageLookupByLibrary.simpleMessage("تم التصدير/الاستيراد بنجاح"), // /
+        "fatLabel": MessageLookupByLibrary.simpleMessage("دهون"),
+        "fiberLabel": MessageLookupByLibrary.simpleMessage("ألياف"),
+        "flOzUnit": MessageLookupByLibrary.simpleMessage("أونصة سائلة"),
+        "ftLabel": MessageLookupByLibrary.simpleMessage("قدم"),
+        "genderFemaleLabel": MessageLookupByLibrary.simpleMessage("♀ أنثى"),
+        "genderLabel": MessageLookupByLibrary.simpleMessage("الجنس"),
+        "genderMaleLabel": MessageLookupByLibrary.simpleMessage("♂ ذكر"),
+        "goalGainWeight": MessageLookupByLibrary.simpleMessage("زيادة الوزن"),
+        "goalLabel": MessageLookupByLibrary.simpleMessage("الهدف"),
+        "goalLoseWeight": MessageLookupByLibrary.simpleMessage("خسارة الوزن"),
+        "goalMaintainWeight":
+            MessageLookupByLibrary.simpleMessage("الحفاظ على الوزن"),
+        "gramMilliliterUnit": MessageLookupByLibrary.simpleMessage("جم/مل"),
+        "gramUnit": MessageLookupByLibrary.simpleMessage("جم"),
+        "heightLabel": MessageLookupByLibrary.simpleMessage("الطول"),
+        "homeLabel": MessageLookupByLibrary.simpleMessage("الرئيسية"),
+        "importAction": MessageLookupByLibrary.simpleMessage("استيراد"),
+        "infoAddedActivityLabel":
+            MessageLookupByLibrary.simpleMessage("تمت إضافة نشاط جديد"),
+        "infoAddedIntakeLabel":
+            MessageLookupByLibrary.simpleMessage("تمت إضافة وجبة جديدة"),
+        "itemDeletedSnackbar":
+            MessageLookupByLibrary.simpleMessage("تم حذف العنصر"),
+        "itemUpdatedSnackbar":
+            MessageLookupByLibrary.simpleMessage("تم تحديث العنصر"),
+        "kcalLabel": MessageLookupByLibrary.simpleMessage("كيلو كالوري"),
+        "kcalLeftLabel": MessageLookupByLibrary.simpleMessage("السعرات الحرارية المتبقية"), // المتبقي من السعرات الحرارية
+        "kgLabel": MessageLookupByLibrary.simpleMessage("كجم"),
+        "lbsLabel": MessageLookupByLibrary.simpleMessage("رطل"),
+        "lunchExample":
+            MessageLookupByLibrary.simpleMessage("مثال: بيتزا، سلطة، أرز..."), // ...
+        "lunchLabel": MessageLookupByLibrary.simpleMessage("وجبة الغداء"), // الغداء
+        "macroDistributionLabel":
+            MessageLookupByLibrary.simpleMessage("توزيع المغذيات الكبرى:"),
+        "mealBrandsLabel": MessageLookupByLibrary.simpleMessage("العلامات التجارية"),
+        "mealCarbsLabel": MessageLookupByLibrary.simpleMessage("كربوهيدرات لكل"),
+        "mealFatLabel": MessageLookupByLibrary.simpleMessage("دهون لكل"),
+        "mealKcalLabel": MessageLookupByLibrary.simpleMessage("كيلو كالوري لكل"),
+        "mealNameLabel": MessageLookupByLibrary.simpleMessage("اسم الوجبة"),
+        "mealProteinLabel":
+            MessageLookupByLibrary.simpleMessage("بروتين لكل 100 جم/مل"),
+        "mealSizeLabel":
+            MessageLookupByLibrary.simpleMessage("حجم الوجبة (جم/مل)"),
+        "mealSizeLabelImperial":
+            MessageLookupByLibrary.simpleMessage("حجم الوجبة (أونصة/أونصة سائلة)"),
+        "mealUnitLabel": MessageLookupByLibrary.simpleMessage("وحدة الوجبة"),
+        "milliliterUnit": MessageLookupByLibrary.simpleMessage("مل"),
+        "missingProductInfo": MessageLookupByLibrary.simpleMessage(
+            "المنتج يفتقر إلى معلومات السعرات الحرارية أو المغذيات الكبرى المطلوبة"),
+        "noActivityRecentlyAddedLabel":
+            MessageLookupByLibrary.simpleMessage("لم تتم إضافة أي نشاط مؤخراً"), // مؤخرًا
+        "noMealsRecentlyAddedLabel":
+            MessageLookupByLibrary.simpleMessage("لم تتم إضافة أي وجبات مؤخراً"), // مؤخرًا
+        "noResultsFound":
+            MessageLookupByLibrary.simpleMessage("لم يتم العثور على نتائج"),
+        "notAvailableLabel": MessageLookupByLibrary.simpleMessage("غير متوفر"),
+        "nothingAddedLabel":
+            MessageLookupByLibrary.simpleMessage("لم تتم إضافة أي شيء"), // لم يتم إضافة شيء
+        "nutritionInfoLabel":
+            MessageLookupByLibrary.simpleMessage("المعلومات الغذائية"),
+        "nutritionalStatusNormalWeight":
+            MessageLookupByLibrary.simpleMessage("وزن طبيعي"),
+        "nutritionalStatusObeseClassI":
+            MessageLookupByLibrary.simpleMessage("سمنة من الدرجة الأولى"),
+        "nutritionalStatusObeseClassII":
+            MessageLookupByLibrary.simpleMessage("سمنة من الدرجة الثانية"),
+        "nutritionalStatusObeseClassIII":
+            MessageLookupByLibrary.simpleMessage("سمنة من الدرجة الثالثة"),
+        "nutritionalStatusPreObesity":
+            MessageLookupByLibrary.simpleMessage("ما قبل السمنة"),
+        "nutritionalStatusRiskAverage":
+            MessageLookupByLibrary.simpleMessage("متوسط"),
+        "nutritionalStatusRiskIncreased":
+            MessageLookupByLibrary.simpleMessage("متزايد"),
+        "nutritionalStatusRiskLabel": m2,
+        "nutritionalStatusRiskLow": MessageLookupByLibrary.simpleMessage(
+            "منخفض \n(ولكن خطر المشاكل السريرية الأخرى \nمتزايد)"),
+        "nutritionalStatusRiskModerate":
+            MessageLookupByLibrary.simpleMessage("معتدل"),
+        "nutritionalStatusRiskSevere":
+            MessageLookupByLibrary.simpleMessage("شديد"),
+        "nutritionalStatusRiskVerySevere":
+            MessageLookupByLibrary.simpleMessage("شديد جداً"),
+        "nutritionalStatusUnderweight":
+            MessageLookupByLibrary.simpleMessage("نقص الوزن"),
+        "offDisclaimer": MessageLookupByLibrary.simpleMessage(
+            "يتم استرداد البيانات المقدمة لك من قاعدة بيانات Open Food Facts. لا يمكن تقديم أي ضمانات لدقة أو اكتمال أو موثوقية المعلومات المقدمة. يتم توفير البيانات \"كما هي\" ومصدر البيانات الأصلي (Open Food Facts) ليس مسؤولاً عن أي أضرار تنشأ عن استخدام البيانات."), // تعديل الصياغة
+        "onboardingActivityQuestionSubtitle":
+            MessageLookupByLibrary.simpleMessage(
+                "ما مدى نشاطك اليومي؟ (باستثناء التمارين)"), // تعديل الصياغة
+        "onboardingBirthdayHint":
+            MessageLookupByLibrary.simpleMessage("أدخل التاريخ"),
+        "onboardingBirthdayQuestionSubtitle":
+            MessageLookupByLibrary.simpleMessage("ما هو تاريخ ميلادك؟"), // متى هو
+        "onboardingEnterBirthdayLabel":
+            MessageLookupByLibrary.simpleMessage("تاريخ الميلاد"),
+        "onboardingGenderQuestionSubtitle":
+            MessageLookupByLibrary.simpleMessage("ما هو جنسك؟"),
+        "onboardingGoalQuestionSubtitle": MessageLookupByLibrary.simpleMessage(
+            "ما هو هدفك الحالي للوزن؟"),
+        "onboardingHeightExampleHintCm":
+            MessageLookupByLibrary.simpleMessage("مثال: 170"),
+        "onboardingHeightExampleHintFt":
+            MessageLookupByLibrary.simpleMessage("مثال: 5.8"),
+        "onboardingHeightQuestionSubtitle":
+            MessageLookupByLibrary.simpleMessage("ما هو طولك؟"), // الحالي
+        "onboardingIntroDescription": MessageLookupByLibrary.simpleMessage(
+            "للبدء، يحتاج التطبيق إلى بعض المعلومات عنك لحساب هدفك اليومي من السعرات الحرارية. يتم تخزين جميع معلوماتك بأمان على جهازك."), // تعديل الصياغة
+        "onboardingKcalPerDayLabel":
+            MessageLookupByLibrary.simpleMessage("السعرات الحرارية اليومية"), // كيلو كالوري
+        "onboardingOverviewLabel":
+            MessageLookupByLibrary.simpleMessage("نظرة عامة"),
+        "onboardingSaveUserError": MessageLookupByLibrary.simpleMessage(
+            "خطأ في الإدخال، يرجى المحاولة مرة أخرى"), // إدخال خاطئ
+        "onboardingWeightExampleHintKg":
+            MessageLookupByLibrary.simpleMessage("مثال: 60"),
+        "onboardingWeightExampleHintLbs":
+            MessageLookupByLibrary.simpleMessage("مثال: 132"),
+        "onboardingWeightQuestionSubtitle":
+            MessageLookupByLibrary.simpleMessage("ما هو وزنك الحالي؟"),
+        "onboardingWelcomeLabel":
+            MessageLookupByLibrary.simpleMessage("مرحباً بك في"),
+        "onboardingWrongHeightLabel":
+            MessageLookupByLibrary.simpleMessage("الرجاء إدخال الطول الصحيح"), // أدخل
+        "onboardingWrongWeightLabel":
+            MessageLookupByLibrary.simpleMessage("الرجاء إدخال الوزن الصحيح"), // أدخل
+        "onboardingYourGoalLabel":
+            MessageLookupByLibrary.simpleMessage("هدف السعرات الحرارية:"), // الخاص بك
+        "onboardingYourMacrosGoalLabel":
+            MessageLookupByLibrary.simpleMessage("أهداف المغذيات الكبرى:"), // أهدافك من
+        "ozUnit": MessageLookupByLibrary.simpleMessage("أونصة"),
+        "paAmericanFootballGeneral":
+            MessageLookupByLibrary.simpleMessage("كرة القدم الأمريكية"),
+        "paAmericanFootballGeneralDesc":
+            MessageLookupByLibrary.simpleMessage("لمس، علم، عام"),
+        "paArcheryGeneral": MessageLookupByLibrary.simpleMessage("الرماية"),
+        "paArcheryGeneralDesc":
+            MessageLookupByLibrary.simpleMessage("غير الصيد"),
+        "paAutoRacing": MessageLookupByLibrary.simpleMessage("سباق السيارات"),
+        "paAutoRacingDesc": MessageLookupByLibrary.simpleMessage("عجلات مفتوحة"),
+        "paBackpackingGeneral":
+            MessageLookupByLibrary.simpleMessage("التنزه الطويل (مع حقائب)"),
+        "paBackpackingGeneralDesc":
+            MessageLookupByLibrary.simpleMessage("عام"),
+        "paBadmintonGeneral": MessageLookupByLibrary.simpleMessage("تنس الريشة"),
+        "paBadmintonGeneralDesc": MessageLookupByLibrary.simpleMessage(
+            "فردي وزوجي اجتماعي، عام"),
+        "paBasketballGeneral":
+            MessageLookupByLibrary.simpleMessage("كرة السلة"),
+        "paBasketballGeneralDesc":
+            MessageLookupByLibrary.simpleMessage("عام"),
+        "paBicyclingGeneral": MessageLookupByLibrary.simpleMessage("ركوب الدراجات"),
+        "paBicyclingGeneralDesc":
+            MessageLookupByLibrary.simpleMessage("عام"),
+        "paBicyclingMountainGeneral":
+            MessageLookupByLibrary.simpleMessage("ركوب الدراجات الجبلية"),
+        "paBicyclingMountainGeneralDesc":
+            MessageLookupByLibrary.simpleMessage("عام"),
+        "paBicyclingStationaryGeneral":
+            MessageLookupByLibrary.simpleMessage("ركوب الدراجات الثابتة"),
+        "paBicyclingStationaryGeneralDesc":
+            MessageLookupByLibrary.simpleMessage("عام"),
+        "paBilliardsGeneral": MessageLookupByLibrary.simpleMessage("البلياردو"),
+        "paBilliardsGeneralDesc":
+            MessageLookupByLibrary.simpleMessage("عام"),
+        "paBowlingGeneral": MessageLookupByLibrary.simpleMessage("البولينج"),
+        "paBowlingGeneralDesc": MessageLookupByLibrary.simpleMessage("عام"),
+        "paBoxingBag": MessageLookupByLibrary.simpleMessage("الملاكمة"),
+        "paBoxingBagDesc": MessageLookupByLibrary.simpleMessage("كيس اللكم"),
+        "paBoxingGeneral": MessageLookupByLibrary.simpleMessage("الملاكمة"),
+        "paBoxingGeneralDesc":
+            MessageLookupByLibrary.simpleMessage("في الحلبة، عام"),
+        "paBroomball": MessageLookupByLibrary.simpleMessage("البرومبول"),
+        "paBroomballDesc": MessageLookupByLibrary.simpleMessage("عام"),
+        "paCalisthenicsGeneral":
+            MessageLookupByLibrary.simpleMessage("تمارين رياضية (كاليستنيكس)"),
+        "paCalisthenicsGeneralDesc": MessageLookupByLibrary.simpleMessage(
+            "جهد خفيف أو معتدل، عام (مثل تمارين الظهر)"),
+        "paCanoeingGeneral": MessageLookupByLibrary.simpleMessage("التجديف بالكانوي"),
+        "paCanoeingGeneralDesc": MessageLookupByLibrary.simpleMessage(
+            "تجديف، للمتعة، عام"),
+        "paCatch": MessageLookupByLibrary.simpleMessage("كرة القدم أو البيسبول"),
+        "paCatchDesc": MessageLookupByLibrary.simpleMessage("لعب التقاط الكرة"),
+        "paCheerleading": MessageLookupByLibrary.simpleMessage("التشجيع"),
+        "paCheerleadingDesc": MessageLookupByLibrary.simpleMessage(
+            "حركات جمباز، تنافسي"),
+        "paChildrenGame":
+            MessageLookupByLibrary.simpleMessage("ألعاب الأطفال"),
+        "paChildrenGameDesc": MessageLookupByLibrary.simpleMessage(
+            "(مثل الحجلة، دودج بول، أجهزة الملعب، كرة التي، كرات البلي)، جهد معتدل"),
+        "paClimbingHillsNoLoadGeneral":
+            MessageLookupByLibrary.simpleMessage("تسلق التلال، بدون حمل"),
+        "paClimbingHillsNoLoadGeneralDesc":
+            MessageLookupByLibrary.simpleMessage("بدون حمل"),
+        "paCricket": MessageLookupByLibrary.simpleMessage("الكريكيت"),
+        "paCricketDesc":
+            MessageLookupByLibrary.simpleMessage("ضرب، رمي، حراسة"),
+        "paCroquet": MessageLookupByLibrary.simpleMessage("الكروكيه"),
+        "paCroquetDesc": MessageLookupByLibrary.simpleMessage("عام"),
+        "paCurling": MessageLookupByLibrary.simpleMessage("الكيرلنج"),
+        "paCurlingDesc": MessageLookupByLibrary.simpleMessage("عام"),
+        "paDancingAerobicGeneral":
+            MessageLookupByLibrary.simpleMessage("الرقص الهوائي (إيروبيك)"), // إيروبيك
+        "paDancingAerobicGeneralDesc":
+            MessageLookupByLibrary.simpleMessage("عام"),
+        "paDancingGeneral":
+            MessageLookupByLibrary.simpleMessage("الرقص"), // الرقص العام
+        "paDancingGeneralDesc": MessageLookupByLibrary.simpleMessage(
+            "مثال: الديسكو، الشعبي، الإيرلندي، رقص الصف، بولكا، كونتر، ريفي"), // تعديل الصياغة
+        "paDartsWall": MessageLookupByLibrary.simpleMessage("لعبة السهام"), // السهام
+        "paDartsWallDesc": MessageLookupByLibrary.simpleMessage("الحائط أو العشب"),
+        "paDivingGeneral": MessageLookupByLibrary.simpleMessage("الغوص"),
+        "paDivingGeneralDesc": MessageLookupByLibrary.simpleMessage(
+            "غوص حر، غوص سكوبا، عام"),
+        "paDivingSpringboardPlatform":
+            MessageLookupByLibrary.simpleMessage("الغطس"),
+        "paDivingSpringboardPlatformDesc":
+            MessageLookupByLibrary.simpleMessage("المنصة أو اللوح المرن"),
+        "paFencing": MessageLookupByLibrary.simpleMessage("المبارزة"),
+        "paFencingDesc": MessageLookupByLibrary.simpleMessage("عام"),
+        "paFrisbee": MessageLookupByLibrary.simpleMessage("لعب الفريسبي"),
+        "paFrisbeeDesc": MessageLookupByLibrary.simpleMessage("عام"),
+        "paGeneralDesc": MessageLookupByLibrary.simpleMessage("عام"),
+        "paGolfGeneral": MessageLookupByLibrary.simpleMessage("الجولف"), // الغولف
+        "paGolfGeneralDesc": MessageLookupByLibrary.simpleMessage("عام"),
+        "paGymnasticsGeneral":
+            MessageLookupByLibrary.simpleMessage("الجمباز"),
+        "paGymnasticsGeneralDesc":
+            MessageLookupByLibrary.simpleMessage("عام"),
+        "paHackySack": MessageLookupByLibrary.simpleMessage("هاكي ساك"),
+        "paHackySackDesc": MessageLookupByLibrary.simpleMessage("عام"),
+        "paHandballGeneral": MessageLookupByLibrary.simpleMessage("كرة اليد"),
+        "paHandballGeneralDesc":
+            MessageLookupByLibrary.simpleMessage("عام"),
+        "paHangGliding": MessageLookupByLibrary.simpleMessage("الطيران الشراعي"),
+        "paHangGlidingDesc": MessageLookupByLibrary.simpleMessage("عام"),
+        "paHeadingBicycling": MessageLookupByLibrary.simpleMessage("ركوب الدراجات"),
+        "paHeadingConditionalExercise":
+            MessageLookupByLibrary.simpleMessage("تمارين التكييف"),
+        "paHeadingDancing": MessageLookupByLibrary.simpleMessage("الرقص"),
+        "paHeadingRunning": MessageLookupByLibrary.simpleMessage("الجري"),
+        "paHeadingSports": MessageLookupByLibrary.simpleMessage("الرياضات"),
+        "paHeadingWalking": MessageLookupByLibrary.simpleMessage("المشي"),
+        "paHeadingWaterActivities":
+            MessageLookupByLibrary.simpleMessage("الأنشطة المائية"),
+        "paHeadingWinterActivities":
+            MessageLookupByLibrary.simpleMessage("الأنشطة الشتوية"),
+        "paHikingCrossCountry": MessageLookupByLibrary.simpleMessage("المشي لمسافات طويلة"),
+        "paHikingCrossCountryDesc":
+            MessageLookupByLibrary.simpleMessage("عبر البلاد"),
+        "paHockeyField": MessageLookupByLibrary.simpleMessage("هوكي الميدان"),
+        "paHockeyFieldDesc": MessageLookupByLibrary.simpleMessage("عام"),
+        "paHorseRidingGeneral":
+            MessageLookupByLibrary.simpleMessage("ركوب الخيل"),
+        "paHorseRidingGeneralDesc":
+            MessageLookupByLibrary.simpleMessage("عام"),
+        "paIceHockeyGeneral":
+            MessageLookupByLibrary.simpleMessage("هوكي الجليد"),
+        "paIceHockeyGeneralDesc":
+            MessageLookupByLibrary.simpleMessage("عام"),
+        "paIceSkatingGeneral":
+            MessageLookupByLibrary.simpleMessage("التزلج على الجليد"),
+        "paIceSkatingGeneralDesc":
+            MessageLookupByLibrary.simpleMessage("عام"),
+        "paJaiAlai": MessageLookupByLibrary.simpleMessage("جاي ألاي"),
+        "paJaiAlaiDesc": MessageLookupByLibrary.simpleMessage("عام"),
+        "paJoggingGeneral": MessageLookupByLibrary.simpleMessage("الهرولة"),
+        "paJoggingGeneralDesc": MessageLookupByLibrary.simpleMessage("عام"),
+        "paJuggling": MessageLookupByLibrary.simpleMessage("الخفة"),
+        "paJugglingDesc": MessageLookupByLibrary.simpleMessage("عام"),
+        "paKayakingModerate": MessageLookupByLibrary.simpleMessage("التجديف بالكياك"),
+        "paKayakingModerateDesc":
+            MessageLookupByLibrary.simpleMessage("جهد معتدل"),
+        "paKickball": MessageLookupByLibrary.simpleMessage("كيكبول"),
+        "paKickballDesc": MessageLookupByLibrary.simpleMessage("عام"),
+        "paLacrosse": MessageLookupByLibrary.simpleMessage("اللاكروس"),
+        "paLacrosseDesc": MessageLookupByLibrary.simpleMessage("عام"),
+        "paLawnBowling": MessageLookupByLibrary.simpleMessage("البولينج على العشب"),
+        "paLawnBowlingDesc":
+            MessageLookupByLibrary.simpleMessage("كرة البوتشي، في الهواء الطلق"),
+        "paMartialArtsModerate":
+            MessageLookupByLibrary.simpleMessage("الفنون القتالية"),
+        "paMartialArtsModerateDesc": MessageLookupByLibrary.simpleMessage(
+            "أنواع مختلفة، إيقاع معتدل (مثل الجودو، الجوجيتسو، الكاراتيه، الكيك بوكسينغ، التايكوندو، تاي-بو، ملاكمة الموياي تاي)"),
+        "paMartialArtsSlower":
+            MessageLookupByLibrary.simpleMessage("الفنون القتالية"),
+        "paMartialArtsSlowerDesc": MessageLookupByLibrary.simpleMessage(
+            "أنواع مختلفة، إيقاع أبطأ، للمبتدئين، تدريب"),
+        "paMotoCross": MessageLookupByLibrary.simpleMessage("موتوكروس"),
+        "paMotoCrossDesc": MessageLookupByLibrary.simpleMessage(
+            "رياضات الدراجات النارية على الطرق الوعرة، مركبات لجميع التضاريس، عام"),
+        "paMountainClimbing": MessageLookupByLibrary.simpleMessage("تسلق الجبال"), // التسلق
+        "paMountainClimbingDesc":
+            MessageLookupByLibrary.simpleMessage("تسلق الصخور أو الجبال"),
+        "paOrienteering": MessageLookupByLibrary.simpleMessage("توجيه"),
+        "paOrienteeringDesc": MessageLookupByLibrary.simpleMessage("عام"),
+        "paPaddleBoarding":
+            MessageLookupByLibrary.simpleMessage("التجديف وقوفاً"),
+        "paPaddleBoardingDesc":
+            MessageLookupByLibrary.simpleMessage("وقوفاً"),
+        "paPaddleBoat": MessageLookupByLibrary.simpleMessage("قارب التجديف"),
+        "paPaddleBoatDesc": MessageLookupByLibrary.simpleMessage("عام"),
+        "paPaddleball": MessageLookupByLibrary.simpleMessage("مضرب الكرات"),
+        "paPaddleballDesc":
+            MessageLookupByLibrary.simpleMessage("غير رسمي، عام"),
+        "paPoloHorse": MessageLookupByLibrary.simpleMessage("البولو"),
+        "paPoloHorseDesc": MessageLookupByLibrary.simpleMessage("على ظهر الخيل"),
+        "paRacquetball": MessageLookupByLibrary.simpleMessage("الكرة الطائرة بالمضرب"),
+        "paRacquetballDesc": MessageLookupByLibrary.simpleMessage("عام"),
+        "paResistanceTraining":
+            MessageLookupByLibrary.simpleMessage("تدريب المقاومة"),
+        "paResistanceTrainingDesc": MessageLookupByLibrary.simpleMessage(
+            "رفع الأثقال، الأوزان الحرة، نوتيلوس أو يونيفرسال"),
+        "paRodeoSportGeneralModerate":
+            MessageLookupByLibrary.simpleMessage("رياضات الروديو"),
+        "paRodeoSportGeneralModerateDesc":
+            MessageLookupByLibrary.simpleMessage("عام، جهد معتدل"),
+        "paRollerbladingLight":
+            MessageLookupByLibrary.simpleMessage("التزلج بالعجلات"),
+        "paRollerbladingLightDesc":
+            MessageLookupByLibrary.simpleMessage("التزلج المضمن"),
+        "paRopeJumpingGeneral":
+            MessageLookupByLibrary.simpleMessage("القفز بالحبل"),
+        "paRopeJumpingGeneralDesc": MessageLookupByLibrary.simpleMessage(
+            "إيقاع معتدل، 100-120 قفزة/دقيقة، عام، قفز بقدمين، ارتداد عادي"),
+        "paRopeSkippingGeneral":
+            MessageLookupByLibrary.simpleMessage("نط الحبل"),
+        "paRopeSkippingGeneralDesc":
+            MessageLookupByLibrary.simpleMessage("عام"),
+        "paRugbyCompetitive": MessageLookupByLibrary.simpleMessage("الركبي التنافسي"), // الركبي
+        "paRugbyCompetitiveDesc":
+            MessageLookupByLibrary.simpleMessage("اتحاد، فريق، تنافسي"),
+        "paRugbyNonCompetitive": MessageLookupByLibrary.simpleMessage("الركبي غير التنافسي"), // الركبي
+        "paRugbyNonCompetitiveDesc":
+            MessageLookupByLibrary.simpleMessage("لمس، غير تنافسي"),
+        "paRunningGeneral": MessageLookupByLibrary.simpleMessage("الجري"),
+        "paRunningGeneralDesc": MessageLookupByLibrary.simpleMessage("عام"),
+        "paSailingGeneral": MessageLookupByLibrary.simpleMessage("الإبحار"),
+        "paSailingGeneralDesc": MessageLookupByLibrary.simpleMessage(
+            "الإبحار بالقارب واللوح، ركوب الأمواج بالرياح، التزلج على الجليد بالإبحار، عام"), // تعديل الصياغة
+        "paShuffleboard": MessageLookupByLibrary.simpleMessage("شَفْل بورد"),
+        "paShuffleboardDesc": MessageLookupByLibrary.simpleMessage("عام"),
+        "paSkateboardingGeneral":
+            MessageLookupByLibrary.simpleMessage("التزلج على الألواح"),
+        "paSkateboardingGeneralDesc":
+            MessageLookupByLibrary.simpleMessage("عام، جهد معتدل"),
+        "paSkatingRoller":
+            MessageLookupByLibrary.simpleMessage("التزلج بالعجلات"),
+        "paSkatingRollerDesc": MessageLookupByLibrary.simpleMessage("عام"),
+        "paSkiingGeneral": MessageLookupByLibrary.simpleMessage("التزلج"),
+        "paSkiingGeneralDesc": MessageLookupByLibrary.simpleMessage("عام"),
+        "paSkiingWaterWakeboarding":
+            MessageLookupByLibrary.simpleMessage("التزلج على الماء"),
+        "paSkiingWaterWakeboardingDesc":
+            MessageLookupByLibrary.simpleMessage("التزلج على الماء أو الويكبورد"),
+        "paSkydiving": MessageLookupByLibrary.simpleMessage("القفز بالمظلات"),
+        "paSkydivingDesc": MessageLookupByLibrary.simpleMessage(
+            "القفز بالمظلات، القفز الأساسي (BASE)، القفز بالحبال المطاطية"), // القفز الأساسي
+        "paSnorkeling": MessageLookupByLibrary.simpleMessage("الغطس السطحي"),
+        "paSnorkelingDesc": MessageLookupByLibrary.simpleMessage("عام"),
+        "paSnowShovingModerate":
+            MessageLookupByLibrary.simpleMessage("جرف الثلج"),
+        "paSnowShovingModerateDesc":
+            MessageLookupByLibrary.simpleMessage("يدوياً، جهد معتدل"), // يدويًا
+        "paSoccerGeneral": MessageLookupByLibrary.simpleMessage("كرة القدم"),
+        "paSoccerGeneralDesc":
+            MessageLookupByLibrary.simpleMessage("غير رسمي، عام"),
+        "paSoftballBaseballGeneral":
+            MessageLookupByLibrary.simpleMessage("الكرة اللينة/البيسبول"), // عام
+        "paSoftballBaseballGeneralDesc": MessageLookupByLibrary.simpleMessage(
+            "رمي سريع أو بطيء، عام"),
+        "paSquashGeneral": MessageLookupByLibrary.simpleMessage("السكواش"),
+        "paSquashGeneralDesc": MessageLookupByLibrary.simpleMessage("عام"),
+        "paSurfing": MessageLookupByLibrary.simpleMessage("ركوب الأمواج"),
+        "paSurfingDesc":
+            MessageLookupByLibrary.simpleMessage("بالجسم أو باللوح، عام"),
+        "paSwimmingGeneral": MessageLookupByLibrary.simpleMessage("السباحة"),
+        "paSwimmingGeneralDesc": MessageLookupByLibrary.simpleMessage(
+            "الوقوف في الماء، جهد معتدل، عام"),
+        "paTableTennisGeneral":
+            MessageLookupByLibrary.simpleMessage("تنس الطاولة"), // كرة الطاولة
+        "paTableTennisGeneralDesc":
+            MessageLookupByLibrary.simpleMessage("كرة الطاولة، بينج بونج"),
+        "paTaiChiQiGongGeneral":
+            MessageLookupByLibrary.simpleMessage("تاي تشي، تشي كونغ"),
+        "paTaiChiQiGongGeneralDesc":
+            MessageLookupByLibrary.simpleMessage("عام"),
+        "paTennisGeneral": MessageLookupByLibrary.simpleMessage("التنس"),
+        "paTennisGeneralDesc": MessageLookupByLibrary.simpleMessage("عام"),
+        "paTrackField": MessageLookupByLibrary.simpleMessage("ألعاب القوى"),
+        "paTrackField1Desc": MessageLookupByLibrary.simpleMessage(
+            "(مثل: دفع الجلة، رمي القرص، رمي المطرقة)"),
+        "paTrackField2Desc": MessageLookupByLibrary.simpleMessage(
+            "(مثل: الوثب العالي، الوثب الطويل، الوثب الثلاثي، رمي الرمح، قفز بالزانة)"),
+        "paTrackField3Desc": MessageLookupByLibrary.simpleMessage(
+            "(مثل: سباق الموانع، الحواجز)"),
+        "paTrampolineLight": MessageLookupByLibrary.simpleMessage("الترامبولين"),
+        "paTrampolineLightDesc":
+            MessageLookupByLibrary.simpleMessage("ترفيهي"),
+        "paUnicyclingGeneral":
+            MessageLookupByLibrary.simpleMessage("ركوب الدراجة أحادية العجلة"),
+        "paUnicyclingGeneralDesc":
+            MessageLookupByLibrary.simpleMessage("عام"),
+        "paVolleyballGeneral":
+            MessageLookupByLibrary.simpleMessage("الكرة الطائرة"),
+        "paVolleyballGeneralDesc": MessageLookupByLibrary.simpleMessage(
+            "غير تنافسي، فريق من 6 - 9 أفراد، عام"),
+        "paWalkingForPleasure": MessageLookupByLibrary.simpleMessage("المشي"),
+        "paWalkingForPleasureDesc":
+            MessageLookupByLibrary.simpleMessage("للمتعة"),
+        "paWalkingTheDog":
+            MessageLookupByLibrary.simpleMessage("المشي مع الكلب"),
+        "paWalkingTheDogDesc": MessageLookupByLibrary.simpleMessage("عام"),
+        "paWallyball": MessageLookupByLibrary.simpleMessage("والي بول"),
+        "paWallyballDesc": MessageLookupByLibrary.simpleMessage("عام"),
+        "paWaterAerobics":
+            MessageLookupByLibrary.simpleMessage("التمارين المائية"),
+        "paWaterAerobicsDesc": MessageLookupByLibrary.simpleMessage(
+            "التمارين الرياضية المائية، تمارين الجمباز المائية"),
+        "paWaterPolo": MessageLookupByLibrary.simpleMessage("كرة الماء"),
+        "paWaterPoloDesc": MessageLookupByLibrary.simpleMessage("عام"),
+        "paWaterVolleyball":
+            MessageLookupByLibrary.simpleMessage("الكرة الطائرة المائية"),
+        "paWaterVolleyballDesc":
+            MessageLookupByLibrary.simpleMessage("عام"),
+        "paWateraerobicsCalisthenics":
+            MessageLookupByLibrary.simpleMessage("التمارين الرياضية المائية"),
+        "paWateraerobicsCalisthenicsDesc": MessageLookupByLibrary.simpleMessage(
+            "التمارين الرياضية المائية، تمارين الجمباز المائية"),
+        "paWrestling": MessageLookupByLibrary.simpleMessage("المصارعة"),
+        "paWrestlingDesc": MessageLookupByLibrary.simpleMessage("عام"),
+        "palActiveDescriptionLabel": MessageLookupByLibrary.simpleMessage(
+            "يقضي معظم الوقت واقفاً أو يمشي في العمل وأنشطة وقت الفراغ النشطة"), // واقفاً
+        "palActiveLabel": MessageLookupByLibrary.simpleMessage("نشط"),
+        "palLowActiveDescriptionLabel": MessageLookupByLibrary.simpleMessage(
+            "مثل: الجلوس أو الوقوف في العمل وأنشطة وقت الفراغ الخفيفة"),
+        "palLowLActiveLabel":
+            MessageLookupByLibrary.simpleMessage("قليل النشاط"),
+        "palSedentaryDescriptionLabel": MessageLookupByLibrary.simpleMessage(
+            "مثل: عمل مكتبي ومعظم أنشطة وقت الفراغ جلوساً"), // جلوساً
+        "palSedentaryLabel": MessageLookupByLibrary.simpleMessage("خامل"), // قليل الحركة
+        "palVeryActiveDescriptionLabel": MessageLookupByLibrary.simpleMessage(
+            "يقضي معظم الوقت يمشي أو يجري أو يحمل وزناً في العمل وأنشطة وقت الفراغ النشطة"), // وزناً
+        "palVeryActiveLabel":
+            MessageLookupByLibrary.simpleMessage("نشط جداً"),
+        "per100gmlLabel": MessageLookupByLibrary.simpleMessage("لكل 100 جم/مل"),
+        "perServingLabel": MessageLookupByLibrary.simpleMessage("لكل حصة"),
+        "privacyPolicyLabel":
+            MessageLookupByLibrary.simpleMessage("سياسة الخصوصية"),
+        "profileLabel": MessageLookupByLibrary.simpleMessage("الملف الشخصي"),
+        "proteinLabel": MessageLookupByLibrary.simpleMessage("بروتين"),
+        "quantityLabel": MessageLookupByLibrary.simpleMessage("الكمية"),
+        "readLabel": MessageLookupByLibrary.simpleMessage(
+            "لقد قرأت وأوافق على سياسة الخصوصية."), // أقبل
+        "recentlyAddedLabel": MessageLookupByLibrary.simpleMessage("المضافة مؤخراً"), // مؤخراً
+        "reportErrorDialogText": MessageLookupByLibrary.simpleMessage(
+            "هل تريد الإبلاغ عن خطأ للمطور؟"), // إلى
+        "retryLabel": MessageLookupByLibrary.simpleMessage("إعادة المحاولة"),
+        "saturatedFatLabel":
+            MessageLookupByLibrary.simpleMessage("دهون مشبعة"),
+        "scanProductLabel":
+            MessageLookupByLibrary.simpleMessage("مسح المنتج"),
+        "searchDefaultLabel":
+            MessageLookupByLibrary.simpleMessage("الرجاء إدخال كلمة بحث"), // يرجى
+        "searchFoodPage": MessageLookupByLibrary.simpleMessage("طعام"),
+        "searchLabel": MessageLookupByLibrary.simpleMessage("بحث"),
+        "searchProductsPage": MessageLookupByLibrary.simpleMessage("منتجات"),
+        "searchResultsLabel":
+            MessageLookupByLibrary.simpleMessage("نتائج البحث"),
+        "selectGenderDialogLabel":
+            MessageLookupByLibrary.simpleMessage("اختر الجنس"),
+        "selectHeightDialogLabel":
+            MessageLookupByLibrary.simpleMessage("اختر الطول"),
+        "selectPalCategoryLabel":
+            MessageLookupByLibrary.simpleMessage("اختر مستوى النشاط"),
+        "selectWeightDialogLabel":
+            MessageLookupByLibrary.simpleMessage("اختر الوزن"),
+        "sendAnonymousUserData":
+            MessageLookupByLibrary.simpleMessage("إرسال بيانات الاستخدام المجهولة"),
+        "servingLabel": MessageLookupByLibrary.simpleMessage("حصة"),
+        "servingSizeLabelImperial":
+            MessageLookupByLibrary.simpleMessage("حجم الحصة (أونصة/أونصة سائلة)"),
+        "servingSizeLabelMetric":
+            MessageLookupByLibrary.simpleMessage("حجم الحصة (جم/مل)"),
+        "settingAboutLabel": MessageLookupByLibrary.simpleMessage("حول التطبيق"), // حول
+        "settingFeedbackLabel":
+            MessageLookupByLibrary.simpleMessage("ملاحظات"),
+        "settingsCalculationsLabel":
+            MessageLookupByLibrary.simpleMessage("الحسابات"),
+        "settingsDisclaimerLabel":
+            MessageLookupByLibrary.simpleMessage("إخلاء المسؤولية"),
+        "settingsDistanceLabel":
+            MessageLookupByLibrary.simpleMessage("المسافة"),
+        "settingsImperialLabel":
+            MessageLookupByLibrary.simpleMessage("إمبراطوري (رطل، قدم، أونصة)"),
+        "settingsLabel": MessageLookupByLibrary.simpleMessage("الإعدادات"),
+        "settingsLicensesLabel":
+            MessageLookupByLibrary.simpleMessage("التراخيص"),
+        "settingsMassLabel": MessageLookupByLibrary.simpleMessage("الكتلة"),
+        "settingsMetricLabel":
+            MessageLookupByLibrary.simpleMessage("متري (كجم، سم، مل)"),
+        "settingsPrivacySettings":
+            MessageLookupByLibrary.simpleMessage("إعدادات الخصوصية"),
+        "settingsReportErrorLabel":
+            MessageLookupByLibrary.simpleMessage("الإبلاغ عن خطأ"),
+        "settingsSourceCodeLabel":
+            MessageLookupByLibrary.simpleMessage("شفرة المصدر"),
+        "settingsSystemLabel": MessageLookupByLibrary.simpleMessage("النظام"),
+        "settingsThemeDarkLabel": MessageLookupByLibrary.simpleMessage("داكن"),
+        "settingsThemeLabel": MessageLookupByLibrary.simpleMessage("السمة"),
+        "settingsThemeLightLabel":
+            MessageLookupByLibrary.simpleMessage("فاتح"),
+        "settingsThemeSystemDefaultLabel":
+            MessageLookupByLibrary.simpleMessage("افتراضي النظام"),
+        "settingsUnitsLabel": MessageLookupByLibrary.simpleMessage("الوحدات"),
+        "settingsVolumeLabel": MessageLookupByLibrary.simpleMessage("الحجم"),
+        "snackExample": MessageLookupByLibrary.simpleMessage(
+            "مثال: تفاح، آيس كريم، شوكولاتة..."), // ...
+        "snackLabel": MessageLookupByLibrary.simpleMessage("وجبة خفيفة"),
+        "sugarLabel": MessageLookupByLibrary.simpleMessage("سكر"),
+        "suppliedLabel": MessageLookupByLibrary.simpleMessage("مُستهلَكة"), // مُزَوَّدة
+        "unitLabel": MessageLookupByLibrary.simpleMessage("الوحدة"),
+        "weightLabel": MessageLookupByLibrary.simpleMessage("الوزن"),
+        "yearsLabel": m3
+      };
+}
